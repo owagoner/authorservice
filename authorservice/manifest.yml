@@ -1,0 +1,5 @@
+---
+applications:
+- name: AuthorService-Application
+  path: ./build/libs/authorservice-0.0.1-SNAPSHOT.jar
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git
