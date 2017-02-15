@@ -27,6 +27,7 @@ public class AuthorController {
 	@RequestMapping(value = "/api/author/byname", method = RequestMethod.GET)
 	@ResponseBody
 	public Author author(@RequestParam("query") String name) {
+		
 		return authorService.findByName(name);
 	}
 	

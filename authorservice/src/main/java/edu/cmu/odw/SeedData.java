@@ -23,11 +23,11 @@ public class SeedData {
         
         Author a1 = new Author("Douglas Adams");
         Author a2 = new Author("Gautama Buddha");
-        Author a3 = new Author("Albert Einstein");
+        Author a3 = new Author("Albert Einstein");        
         
         authorService.save(a1);
         authorService.save(a2);
-        authorService.save(a3);
+        authorService.save(a3);        
         
         log.info("Quoates found with findAll():");
         log.info("-------------------------------");
